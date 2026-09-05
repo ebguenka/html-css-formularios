@@ -1,0 +1,19 @@
+{
+  "name": "Ambiente Alura",
+
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+      }
+    }
+  }
+}
